@@ -1,8 +1,9 @@
 import GlobalStyle from './styles/global'
 
+import SignIn from './Pages/SignIn'
 const App = () => (
   <>
-    <h1>Hello World</h1>]
+    <SignIn/>
     <GlobalStyle/>
   </>
 )
