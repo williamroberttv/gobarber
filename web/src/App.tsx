@@ -1,9 +1,11 @@
 import GlobalStyle from './styles/global'
 
 import SignIn from './Pages/SignIn'
+import SignUp from './Pages/SignUp'
 const App = () => (
   <>
-    <SignIn/>
+  {/* <SignIn/> */}
+    <SignUp/>
     <GlobalStyle/>
   </>
 )
